@@ -1,6 +1,6 @@
 ## Версия Node - v16.15.1
 
-Приложение доступно по адресу - https://todo-with-firebase-iota.vercel.app/
+Приложение доступно по адресу - https://todo-with-firebase-dqnhq8faa-username-andrei.vercel.app/
 
 ##### Приложение поддерживает функции:
 1. добавление задачи
