@@ -1,0 +1,22 @@
+.App {
+    display: flex;
+    gap: 10px;
+}
+
+.content {
+    flex: 1 1 auto;
+}
+
+.sidebar {
+    flex: 0 0 500px;
+
+    &__body {
+        position: fixed;
+        width: 500px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: #f59f00;
+        color: white;
+    }
+}

@@ -1,0 +1,35 @@
+@font-face{
+    font-family: 'icons';
+    font-display: swap;
+    src: url('./icons.woff') format('woff'), url('./icons.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+%ic{
+    font-family: "icons";
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="_icon-"],
+[class*=" _icon-"] {
+    &::before{
+        @extend %ic;
+        display: block;
+    }    
+}
+
+  ._icon-delete:before {
+    content: "\e903";
+  }
+  ._icon-edit:before {
+    content: "\e905";
+  }
+  
